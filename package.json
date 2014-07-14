@@ -1,5 +1,5 @@
 {
-  "name": "grunt-processhtml",
+  "name": "grunt-processhtml-prepend",
   "description": "Process html files at build time to modify them depending on the release environment",
   "version": "0.3.3",
   "homepage": "https://github.com/dciccale/grunt-processhtml",
@@ -29,7 +29,7 @@
     "test": "grunt --verbose"
   },
   "dependencies": {
-    "htmlprocessor": "~0.1.0"
+    "htmlprocessor-prepend": "~0.1.2"
   },
   "devDependencies": {
     "grunt": "0.4.1",
