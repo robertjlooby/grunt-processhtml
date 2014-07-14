@@ -11,7 +11,7 @@
 
 module.exports = function (grunt) {
 
-  var HTMLProcessor = require('htmlprocessor');
+  var HTMLProcessor = require('htmlprocessor-prepend');
   var path = require('path');
 
   grunt.registerMultiTask('processhtml', 'Process html files at build time to modify them depending on the release environment', function () {
